@@ -1,0 +1,40 @@
+
+# Python virtual environments
+.venv/
+**/.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Logs and local database backups
+*.log
+*.dump
+*.backup
+*.bak
+*.sql.gz
+
+# Archive files
+*.zip
+*.7z
+
+# Local PostgreSQL data directories
+pgdata/
+postgres_data/
+
+# Not part of the project
+install.cmd
+
+# Editor / OS files
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
+.DS_Store
+.ipynb_checkpoints/

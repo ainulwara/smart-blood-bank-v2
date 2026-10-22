@@ -1,0 +1,6 @@
+# Deliverable 4 dependencies; compatible with the project's Python 3.13 environment.
+psycopg2-binary>=2.9.10,<3
+numpy>=2.0,<3
+pandas>=2.2,<3
+statsmodels>=0.14.6,<0.16
+matplotlib>=3.8,<4

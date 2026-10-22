@@ -1,0 +1,78 @@
+{
+  "generated_at_utc": "2026-10-22T10:45:32Z",
+  "model_primary": "Holt-Winters additive trend + 12-month additive seasonality",
+  "evaluation_baseline": "seasonal naive (repeat previous 12 months)",
+  "target": "monthly sum of requested_units",
+  "forecast_horizon_months": 3,
+  "holdout_months": 12,
+  "source_table": "analytics.historical_demand",
+  "data_note": "Synthetic demonstration data; forecasts are not clinical advice.",
+  "hospital_summaries": [
+    {
+      "hospital_id": "A",
+      "database": "blood_bank_hospital_a",
+      "city": "Karachi",
+      "monthly_aggregate_rows": 840,
+      "source_event_count": 16552611,
+      "last_complete_month": "2026-09-01",
+      "blood_groups_forecast": [
+        "A+",
+        "A-",
+        "AB+",
+        "AB-",
+        "B+",
+        "B-",
+        "O+",
+        "O-"
+      ],
+      "chart": "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\forecast_hospital_A.png"
+    },
+    {
+      "hospital_id": "B",
+      "database": "blood_bank_hospital_b",
+      "city": "Lahore",
+      "monthly_aggregate_rows": 840,
+      "source_event_count": 16552559,
+      "last_complete_month": "2026-09-01",
+      "blood_groups_forecast": [
+        "A+",
+        "A-",
+        "AB+",
+        "AB-",
+        "B+",
+        "B-",
+        "O+",
+        "O-"
+      ],
+      "chart": "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\forecast_hospital_B.png"
+    },
+    {
+      "hospital_id": "C",
+      "database": "blood_bank_hospital_c",
+      "city": "Islamabad",
+      "monthly_aggregate_rows": 840,
+      "source_event_count": 16553273,
+      "last_complete_month": "2026-09-01",
+      "blood_groups_forecast": [
+        "A+",
+        "A-",
+        "AB+",
+        "AB-",
+        "B+",
+        "B-",
+        "O+",
+        "O-"
+      ],
+      "chart": "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\forecast_hospital_C.png"
+    }
+  ],
+  "output_files": [
+    "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\monthly_aggregates.csv",
+    "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\evaluation_metrics.csv",
+    "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\forecast_next_months.csv",
+    "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\forecast_hospital_A.png",
+    "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\forecast_hospital_B.png",
+    "C:\\Users\\NM TRADERS\\Desktop\\sbb-deliverable-2\\deliverable4\\outputs\\forecast_hospital_C.png"
+  ],
+  "elapsed_seconds": 48.07
+}
