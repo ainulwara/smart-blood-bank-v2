@@ -1,0 +1,468 @@
+﻿
+=== GET /auth/me
+{
+    "user":  {
+                 "created_at":  "Fri, 23 Oct 2026 20:21:20 GMT",
+                 "email":  "admina@smartblood.local",
+                 "hospital_id":  "A",
+                 "id":  "40c3f5d2-1e2f-5e41-956a-deb2c82185cc",
+                 "name":  "Admin A",
+                 "role":  "admin"
+             }
+}
+=== GET /blood/search?group=O%2B&city=Karachi
+{
+    "count":  1,
+    "results":  [
+                    {
+                        "blood_group":  "O+",
+                        "city":  "Karachi",
+                        "hospital_id":  "A",
+                        "hospital_name":  "Hospital A",
+                        "id":  "62fe98d5-469d-53d8-acbf-ae138404e65f",
+                        "units":  21,
+                        "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                        "updated_by_hospital_id":  "A"
+                    }
+                ]
+}
+=== GET /blood/inventory
+{
+    "hospital_id":  "A",
+    "inventory":  [
+                      {
+                          "blood_group":  "A-",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "id":  "0a6d3775-b34a-5a66-ad95-6deedddcceca",
+                          "units":  7,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "A"
+                      },
+                      {
+                          "blood_group":  "A+",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "id":  "1fa44f94-783a-52e2-907b-7c3058da49e6",
+                          "units":  18,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "A"
+                      },
+                      {
+                          "blood_group":  "AB-",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "id":  "f3541b95-d73a-528d-8e89-4b5947388703",
+                          "units":  3,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "A"
+                      },
+                      {
+                          "blood_group":  "AB+",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "id":  "7c68ce9d-894e-5812-83b9-77e54b64c139",
+                          "units":  6,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "A"
+                      },
+                      {
+                          "blood_group":  "B-",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "id":  "aab82a22-e46d-5aa6-b432-806db2b77b19",
+                          "units":  5,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "A"
+                      },
+                      {
+                          "blood_group":  "B+",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "id":  "16b559c4-26f3-5e24-bf59-b787a27f4969",
+                          "units":  14,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "A"
+                      },
+                      {
+                          "blood_group":  "O-",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "id":  "9704dd67-1ed4-555f-a804-7ff211f98cc2",
+                          "units":  8,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "A"
+                      },
+                      {
+                          "blood_group":  "O+",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "id":  "62fe98d5-469d-53d8-acbf-ae138404e65f",
+                          "units":  21,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "A"
+                      },
+                      {
+                          "blood_group":  "A-",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "id":  "353582b3-3788-5a37-8c38-c8f23bccec09",
+                          "units":  4,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "B"
+                      },
+                      {
+                          "blood_group":  "A+",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "id":  "32d308c1-fcd0-5acc-9f8d-f2f45ba1f170",
+                          "units":  12,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "B"
+                      },
+                      {
+                          "blood_group":  "AB-",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "id":  "5d8edfec-883b-56a3-8af4-58f5df7e0965",
+                          "units":  2,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "B"
+                      },
+                      {
+                          "blood_group":  "AB+",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "id":  "98792bdb-cda7-596f-95fa-c73a84b9ba80",
+                          "units":  5,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "B"
+                      },
+                      {
+                          "blood_group":  "B-",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "id":  "9eb797b2-9383-548c-b381-18a72cf2265e",
+                          "units":  6,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "B"
+                      },
+                      {
+                          "blood_group":  "B+",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "id":  "1b020bdc-9548-5264-8bd5-4d26c93c1ceb",
+                          "units":  17,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "B"
+                      },
+                      {
+                          "blood_group":  "O-",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "id":  "489e6e50-034c-578f-86db-a08e3422a92a",
+                          "units":  7,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "B"
+                      },
+                      {
+                          "blood_group":  "O+",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "id":  "d2d5cf2f-6750-5da0-aa89-444c4a909681",
+                          "units":  15,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "B"
+                      },
+                      {
+                          "blood_group":  "A-",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "id":  "9413bbc9-ef31-50ee-a3cf-4c8e19dc2986",
+                          "units":  3,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "C"
+                      },
+                      {
+                          "blood_group":  "A+",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "id":  "e0c38efc-a3f2-590e-874e-edf776e980aa",
+                          "units":  10,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "C"
+                      },
+                      {
+                          "blood_group":  "AB-",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "id":  "c5bd1d7a-01a8-57ac-845f-a3bab5a6190a",
+                          "units":  1,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "C"
+                      },
+                      {
+                          "blood_group":  "AB+",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "id":  "48d18274-8299-5a2e-a655-42776c5d8e40",
+                          "units":  4,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "C"
+                      },
+                      {
+                          "blood_group":  "B-",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "id":  "bddc9bb7-25bd-505e-a671-231e62a03a0a",
+                          "units":  4,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "C"
+                      },
+                      {
+                          "blood_group":  "B+",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "id":  "a8317f8d-a6ad-5657-8f21-5da79e816760",
+                          "units":  13,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "C"
+                      },
+                      {
+                          "blood_group":  "O-",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "id":  "b56cc3cf-861c-543f-a8f3-888a4f015d97",
+                          "units":  5,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "C"
+                      },
+                      {
+                          "blood_group":  "O+",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "id":  "8d0d16a2-a024-5050-99a7-06017914d912",
+                          "units":  19,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT",
+                          "updated_by_hospital_id":  "C"
+                      }
+                  ]
+}
+=== GET /emergency
+{
+    "requests":  [
+
+                 ]
+}
+=== GET /notifications
+{
+    "notifications":  [
+                          {
+                              "created_at":  "Fri, 23 Oct 2026 20:21:20 GMT",
+                              "id":  "0f01f4f1-d06b-4fae-8893-a46ca804d5da",
+                              "is_read":  false,
+                              "message":  "Demo low-stock monitoring is enabled for blood groups below 5 units.",
+                              "type":  "low_stock_info"
+                          }
+                      ]
+}
+=== GET /admin/hospitals
+{
+    "hospitals":  [
+                      {
+                          "api_url":  "http://127.0.0.1:5001",
+                          "city":  "Karachi",
+                          "created_at":  "Fri, 23 Oct 2026 20:21:20 GMT",
+                          "id":  "A",
+                          "name":  "Hospital A"
+                      },
+                      {
+                          "api_url":  "http://127.0.0.1:5002",
+                          "city":  "Lahore",
+                          "created_at":  "Fri, 23 Oct 2026 20:21:20 GMT",
+                          "id":  "B",
+                          "name":  "Hospital B"
+                      },
+                      {
+                          "api_url":  "http://127.0.0.1:5003",
+                          "city":  "Islamabad",
+                          "created_at":  "Fri, 23 Oct 2026 20:21:20 GMT",
+                          "id":  "C",
+                          "name":  "Hospital C"
+                      }
+                  ]
+}
+=== GET /admin/reports
+{
+    "current_hospital_id":  "A",
+    "emergency_summary":  [
+
+                          ],
+    "generated_at_utc":  "Fri, 23 Oct 2026 20:31:54 GMT",
+    "inventory_by_blood_group":  [
+                                     {
+                                         "blood_group":  "A-",
+                                         "network_units":  14
+                                     },
+                                     {
+                                         "blood_group":  "A+",
+                                         "network_units":  40
+                                     },
+                                     {
+                                         "blood_group":  "AB-",
+                                         "network_units":  6
+                                     },
+                                     {
+                                         "blood_group":  "AB+",
+                                         "network_units":  15
+                                     },
+                                     {
+                                         "blood_group":  "B-",
+                                         "network_units":  15
+                                     },
+                                     {
+                                         "blood_group":  "B+",
+                                         "network_units":  44
+                                     },
+                                     {
+                                         "blood_group":  "O-",
+                                         "network_units":  20
+                                     },
+                                     {
+                                         "blood_group":  "O+",
+                                         "network_units":  55
+                                     }
+                                 ],
+    "inventory_by_hospital":  [
+                                  {
+                                      "blood_group_count":  8,
+                                      "city":  "Karachi",
+                                      "hospital_id":  "A",
+                                      "hospital_name":  "Hospital A",
+                                      "total_units":  82
+                                  },
+                                  {
+                                      "blood_group_count":  8,
+                                      "city":  "Lahore",
+                                      "hospital_id":  "B",
+                                      "hospital_name":  "Hospital B",
+                                      "total_units":  68
+                                  },
+                                  {
+                                      "blood_group_count":  8,
+                                      "city":  "Islamabad",
+                                      "hospital_id":  "C",
+                                      "hospital_name":  "Hospital C",
+                                      "total_units":  59
+                                  }
+                              ],
+    "low_stock":  [
+                      {
+                          "blood_group":  "AB-",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "units":  1,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "AB-",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "units":  2,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "AB-",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "units":  3,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "A-",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "units":  3,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "A-",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "units":  4,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "AB+",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "units":  4,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "B-",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "units":  4,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "B-",
+                          "city":  "Karachi",
+                          "hospital_id":  "A",
+                          "hospital_name":  "Hospital A",
+                          "units":  5,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "AB+",
+                          "city":  "Lahore",
+                          "hospital_id":  "B",
+                          "hospital_name":  "Hospital B",
+                          "units":  5,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      },
+                      {
+                          "blood_group":  "O-",
+                          "city":  "Islamabad",
+                          "hospital_id":  "C",
+                          "hospital_name":  "Hospital C",
+                          "units":  5,
+                          "updated_at":  "Thu, 24 Sep 2026 00:00:00 GMT"
+                      }
+                  ],
+    "low_stock_threshold":  5
+}
+=== CORS PREFLIGHT
+CORS MISSING
